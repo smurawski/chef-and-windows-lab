@@ -22,3 +22,7 @@ Find-Module -includes DscResource
 ## Want to find the resources available?
 
 Find-DscResource
+
+## Installing a module from the Gallery
+
+Find-Module xWebAdministration | install-module

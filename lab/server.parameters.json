@@ -3,16 +3,16 @@
   "contentVersion": "1.0.0.0",
   "parameters": {
     "newStorageAccountName": {
-      "value": "chefdsctestlab01"
+      "value": "chefdsctestlab05"
     },
     "location": {
       "value": "West US"
     },
     "vmName": {
-      "value": "victim-"
+      "value": "lab-"
     },
     "vmSize": {
-      "value": "Standard_A2"
+      "value": "Standard_D1_v2"
     },
     "imageSKU": {
       "value": "2012-R2-Datacenter"
@@ -24,7 +24,7 @@
       "value": "P2ssw0rd!"
     },
     "count": {
-      "value": 3
+      "value": 55
     }
   }
 }

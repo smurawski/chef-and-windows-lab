@@ -1,4 +1,5 @@
 azure login
 azure config mode arm
-azure group create -n 'serverDeploys' -l 'West US'
-azure group deployment create -f server.json -e server.parameters.json serverDeploys testingDeployment
+azure group create -n 'ReactorWorkshop' -l 'West US'
+azure group deployment create -f server.json -e server.parameters.json ReactorWorkshop labMachines
+
