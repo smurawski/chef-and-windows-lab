@@ -1,30 +1,30 @@
 {
-  "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
-  "contentVersion": "1.0.0.0",
-  "parameters": {
-    "newStorageAccountName": {
-      "value": "chefdsctestlab05"
-    },
-    "location": {
-      "value": "West US"
-    },
-    "vmName": {
-      "value": "lab-"
-    },
-    "vmSize": {
-      "value": "Standard_D1_v2"
-    },
-    "imageSKU": {
-      "value": "2012-R2-Datacenter"
-    },
-    "adminUsername": {
-      "value": "ChefPowerShell"
-    },
-    "adminPassword": {
-      "value": "P2ssw0rd!"
-    },
-    "count": {
-      "value": 55
+    "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "newStorageAccountName": {
+            "value": "chefconf2017test"
+        },
+        "location": {
+            "value": "South Central US"
+        },
+        "vmName": {
+            "value": "chefconftest-"
+        },
+        "vmSize": {
+            "value": "Standard_D1_v2"
+        },
+        "imageSKU": {
+            "value": "2016-Datacenter"
+        },
+        "adminUsername": {
+            "value": "ChefPowerShell"
+        },
+        "adminPassword": {
+            "value": "P2ssw0rd!"
+        },
+        "count": {
+            "value": 65
+        }
     }
-  }
 }
