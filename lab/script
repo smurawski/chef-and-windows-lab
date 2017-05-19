@@ -1,5 +1,3 @@
-azure login
-azure config mode arm
-azure group create -n 'ReactorWorkshop' -l 'West US'
-azure group deployment create -f server.json -e server.parameters.json ReactorWorkshop labMachines
+az group create -n 'chefconf2017test' -l 'South Central US'
+az group deployment create --template-file server.json --parameters @server.parameters.json --resource-group chefconf2017test --name testMachines --output table
 
