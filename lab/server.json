@@ -228,7 +228,7 @@
                 "autoUpgradeMinorVersion": true,
                 "settings": {
                     "fileUris": [
-                        "https://gist.githubusercontent.com/smurawski/cdc8f417057bc44b1b6761cd63d745fb/raw/564275588d53a2072e0712a21c8084a92c33e7e6/SetupFirewall.ps1"
+                        "https: //gist.githubusercontent.com/smurawski/cdc8f417057bc44b1b6761cd63d745fb/raw/7b615838448776fad371c87697f610308f8ae6a5/SetupFirewall.ps1"
                     ],
                     "commandToExecute": "powershell.exe -ExecutionPolicy Unrestricted -File SetupFirewall.ps1"
                 }
