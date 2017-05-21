@@ -1,3 +1,0 @@
-az group create -n 'chefconf2017test' -l 'South Central US'
-az group deployment create --template-file server.json --parameters @server.parameters.json --resource-group chefconf2017test --name testMachines --output table
-

@@ -1,0 +1,18 @@
+{
+    "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "adminUsername": {
+            "value": "ChefPowerShell"
+        },
+        "adminPassword": {
+            "value": "P2ssw0rd!"
+        },
+        "dnsNameforLBIP": {
+            "value": "cc2017workstations"
+        },
+        "vmSize": {
+            "value": "Standard_D1_v2"
+        }
+    }
+}
