@@ -9,7 +9,7 @@
             "value": "South Central US"
         },
         "vmName": {
-            "value": "chefconftest-"
+            "value": "chefconf-"
         },
         "vmSize": {
             "value": "Standard_D1_v2"
@@ -24,7 +24,7 @@
             "value": "P2ssw0rd!"
         },
         "count": {
-            "value": 50
+            "value": 45
         }
     }
 }
